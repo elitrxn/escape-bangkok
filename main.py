@@ -21,7 +21,7 @@ if room == 'starting'
 
     elif room == "communication":
         if aura >= 5:
-            print ("You have got a senior's number)
+            print("You have got a senior's number")
             game_running = False
         else: 
             print("You don't have enough aura, please turn 360 degrees")
@@ -57,7 +57,7 @@ if room == 'starting'
             print("you are put to work for the rest of your life, to be continued")
         elif answer == "3"
             print("the only right answer, mommy knows best, you win")
-            
+
     
 
    
