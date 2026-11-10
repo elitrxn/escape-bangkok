@@ -27,7 +27,7 @@ if room == 'starting'
             print("You don't have enough aura, please turn 360 degrees")
     elif room == "vibes":
         print(You made a GREAT choice. To your left, there is Kim Jong Un. To your right, there is Xi Jingping)
-        print("Enter '1' to meet Kim John Un, enter '2' to meet Xi Jingping)
+        print("Enter '1' to meet Kim John Un, enter '2' to meet Xi Jingping")
 
         answer = input("1-2: ")
 
