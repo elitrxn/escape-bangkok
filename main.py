@@ -112,7 +112,7 @@ while game_running:
                 print("you lose")
 
         elif answer == "3":
-            aura += 150
+            aura += 200
             print("\n")
             print("mama say no.")
             print("he is heartbroken.")
@@ -183,17 +183,17 @@ print("        GAME ENDED")
 print("==============================")
 print("Final aura:", aura)
 
-if aura >= 175:
+if aura >= 275:
     print("FINAL RANK: 67 AURA LORD")
-elif aura >= 100:
+elif aura >= 150:
     print("FINAL RANK: RIZZLER")
-elif aura >= 50:
+elif aura >= 100:
     print("FINAL RANK: AI")
 else:
     print("FINAL RANK: CHUD")
 
 print("============================")
-print("     like and subscribe")
+print("     like and subscribe, drop a follow")
 print("============================")
 
                     
