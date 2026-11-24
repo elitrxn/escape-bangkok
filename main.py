@@ -82,13 +82,11 @@ while game_running:
         elif answer == "2":
             aura += 30
             print("\nyou gained 30 aura.")
-            room = "xie xie noodle house."
+            room = "xie xie noodle house"
 
         else:
             print("watchu doing here")
             continue
-        
-        game_running = False
 
     elif room == "xie xie noodle house":
             
@@ -138,7 +136,7 @@ while game_running:
             print("4. Steal all the skincare")
 
 
-            answer = input ("1-3: ")
+            answer = input ("1-4: ")
 
             if answer == "1":
                     aura -= 100
@@ -180,23 +178,23 @@ while game_running:
 
             game_running = False
             
-     print("\n==============================")
-     print("        GAME OVER")
-     print("==============================")
-     print("Final aura:", aura)
+print("\n==============================")
+print("        GAME ENDED")
+print("==============================")
+print("Final aura:", aura)
 
-     if aura >= 175:
-        print("FINAL RANK: 67 AURA LORD")
-    elif aura >= 100:
-        print("FINAL RANK: RIZZLER")
-    elif aura >=50:
-        print("FINAL RANK: AI")
-    else:
-        print("FINAL RANK: CHUD")
+if aura >= 175:
+    print("FINAL RANK: 67 AURA LORD")
+elif aura >= 100:
+    print("FINAL RANK: RIZZLER")
+elif aura >= 50:
+    print("FINAL RANK: AI")
+else:
+    print("FINAL RANK: CHUD")
 
-    print("============================")
-    print("     like and subscribe")
-    print("============================")
+print("============================")
+print("     like and subscribe")
+print("============================")
 
                     
 
